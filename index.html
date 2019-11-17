@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Come play my RPG Game</title>
+  <link rel="stylesheet" href= "assets/CSS/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class = "row">
+        <h2 class="bg-danger">Come play Avengers RPG game</h2>
+      </div>
+    </div>
+  <div class="container" id = "firstPage">
+    
+    <div class = "row">
+        <h3> Pick your player! </h3>
+    </div>
+    <div class="row" id = "imageHolder">
+
+    </div>
+    <div class = "row" id = "imageMessage">
+
+    </div>
+  </div>
+  <div class = "container" id = "secondPage">
+    <div class= "row text-center"> 
+      <h3> Remaining Players</h3>
+    </div>
+    <div class= "row text-center" id = "remainingPlayerHolder"> 
+
+    </div>
+    <div class = "row">
+        <h3> Pick your opponent </h3>
+    </div>
+    <div class = "row" id = "battleArea">
+      <div class = "col-lg-4" >
+        <div class = "row">
+          <h4> Player </h4>
+        </div>
+        <div class = "container " >
+          <div id = "playerHolder"> </div>
+          <div id = "playerInfoHolder"> </div>
+        </div>
+      </div>
+      <div class = "col-lg-4">
+        <div class = "row"> &nbsp; </div>
+        <div class = "row"> &nbsp; </div>
+        <div class = "row"> &nbsp; </div>
+        <div class = "row"> &nbsp; </div>
+        <div class = "row"> &nbsp; </div>
+
+        <div class = "row">
+              <p id="playerDamageInfo"> </h3>
+        </div>
+        <div class = "row">
+            <p id="opponentDamageInfo"> </h3>
+      </div>
+      </div>
+      <div class = "col-lg-4 offset-md-4">
+          <div class = "row">
+              <h4> Defendent </h4>
+          </div>
+          <div class = "container" >
+            <div id = "defendentHolder"> </div>
+            <div id = "defendentInfoHolder"> </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "container text-center" id = "attackArea">
+    <div class = "row"> &nbsp;</div>
+    <div class = "row"> &nbsp;</div>
+    <div class = "row">
+      <h3 id = "message"> Press Attack button to start playing </h3>
+      <button id = "attackButton"> Attack </button>
+    </div>
+
+  </div>
+  
+  <script src="assets/javaScript/game.js"></script>
+</body>
+</html>
